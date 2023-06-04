@@ -18,7 +18,7 @@ function Login() {
 							style={{ backgroundColor: "#f6f9ff" }}>
 							<div className="d-flex align-items-center justify-content-start gap-2 mb-4">
 								<img src={buddy} alt="" style={{ height: "40px" }} />
-								<span>Buddy</span>
+								<span className="text-black">Buddy</span>
 							</div>
 							<span className="fw-bold lh-1 fs-1">Masuk</span>
 							<p className="mb-3">
@@ -28,7 +28,7 @@ function Login() {
 								</Link>
 							</p>
 							<form>
-								<div className="mb-2">
+								<div className="mb-2 text-black">
 									<label htmlFor="email" className="form-label">
 										Email
 									</label>
@@ -39,7 +39,7 @@ function Login() {
 										placeholder="Masukkan email"
 									/>
 								</div>
-								<div className="mb-2">
+								<div className="mb-2 text-black">
 									<label htmlFor="password" className="form-label">
 										Kata Sandi
 									</label>
@@ -50,7 +50,7 @@ function Login() {
 										placeholder="Masukkan kata sandi"
 									/>
 								</div>
-								<div className="mb-3 d-flex justify-content-between align-items-center">
+								<div className="mb-3 text-black d-flex justify-content-between align-items-center">
 									<div className="form-check">
 										<input
 											className="form-check-input"
@@ -66,7 +66,9 @@ function Login() {
 										Lupa password?
 									</Link>
 								</div>
-								<button type="button" className="btn btn-primary block w-100">
+								<button
+									type="button"
+									className="btn btn-primary block w-100 text-white">
 									Masuk
 								</button>
 							</form>

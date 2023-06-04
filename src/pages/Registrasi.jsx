@@ -18,7 +18,7 @@ function Registrasi() {
 								style={{ backgroundColor: "#f6f9ff" }}>
 								<div className="d-flex align-items-center justify-content-start gap-2 mb-4">
 									<img src={buddy} alt="" style={{ height: "40px" }} />
-									<span>Buddy</span>
+									<span className="text-black">Buddy</span>
 								</div>
 								<span className="fw-bold lh-1 fs-1">Daftar</span>
 								<p className="mb-3">
@@ -28,7 +28,7 @@ function Registrasi() {
 									</Link>
 								</p>
 								<form>
-									<div className="mb-2">
+									<div className="mb-2 text-black">
 										<label htmlFor="Nama" className="form-label">
 											Nama Lengkap
 										</label>
@@ -39,7 +39,7 @@ function Registrasi() {
 											placeholder="Masukkan Nama Lengkap"
 										/>
 									</div>
-									<div className="mb-2">
+									<div className="mb-2 text-black">
 										<label htmlFor="email" className="form-label">
 											Email
 										</label>
@@ -50,7 +50,7 @@ function Registrasi() {
 											placeholder="Masukkan email"
 										/>
 									</div>
-									<div className="mb-3">
+									<div className="mb-3 text-black">
 										<label htmlFor="password" className="form-label">
 											Kata Sandi
 										</label>
@@ -61,7 +61,9 @@ function Registrasi() {
 											placeholder="Masukkan Kata Sandi"
 										/>
 									</div>
-									<button type="button" className="btn btn-primary block w-100">
+									<button
+										type="button"
+										className="btn btn-primary block w-100 text-white">
 										Daftar
 									</button>
 								</form>
